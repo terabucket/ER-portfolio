@@ -2637,7 +2637,7 @@ button i {
 	top: 0;
 	width: 100%;
 	text-align: center;
-	background: var(--color-primary);
+	background: transparent;
 	padding: 25px 5px;
 }
 
@@ -4843,15 +4843,15 @@ ul.skill-items li h5 {
 	color: #cccccc;
 }
 
-ul.skill-items i.fa-laravel {
-	background: #fb503b;
+ul.skill-items i.fa-python {
+	background: #2563eb;
 }
 
 ul.skill-items i.fa-react {
-	background: #61DBFB;
+	background: #21a81c;
 }
 
-ul.skill-items i.fa-html5 {
+ul.skill-items i.fa-aws {
 	background: #e34c26;
 }
 
@@ -4859,8 +4859,8 @@ ul.skill-items li:first-child {
 	margin-top: 0;
 }
 
-ul.skill-items i.fa-laravel::before {
-	left: 2px;
+ul.skill-items i.fa-python::before {
+	/* left: 2px; */
 	position: relative;
 }
 
